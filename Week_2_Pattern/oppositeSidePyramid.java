@@ -1,6 +1,6 @@
 import java.util.Scanner;
  
-public class triangle{
+public class oppositeSidePyramid{
     public static void main(String[] args){
         
         Scanner in = new Scanner(System.in);
@@ -9,16 +9,10 @@ public class triangle{
         
         for(int i =1; i <=n ; i ++){
             for(int j =1; j <= n - i; j++){
-                System.out.print(" ");
+                System.out.print("  ");
             }
-            for(int j =1; j <= i; j++){
-                if (j == i){
-                    System.out.print("*");
-                }
-                else{
-                    System.out.print("* ");
-                }
-                
+             for(int j =1; j <= i; j++){
+                System.out.print("* ");
             }
 
             System.out.println();
